@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \title{Assigment 1}
-\author{Muthya Narayanachary Akhil (A0229794L)}
+\author{Muthya Narayanachary Akhil}
 \date{January 21, 2024}
 
 \begin{document}
@@ -24,7 +24,7 @@ Fall time ($t_{f}$) is defined as the time taken for the voltage to to fall from
 \end{equation}
 
 \subsection*{Part b}
-The high-to-low propogration delay ($t_{pHL}$) is defined as the time delay between 0.5($V_{in}$) in the rising edge and 0.5($V_{out}$) in the falling edge.
+The high-to-low propagation delay ($t_{pHL}$) is defined as the time delay between 0.5($V_{in}$) in the rising edge and 0.5($V_{out}$) in the falling edge.
 Based on the graph provided in the question, the following can be obtained:
 
 \begin{equation}
@@ -32,7 +32,7 @@ Based on the graph provided in the question, the following can be obtained:
 \end{equation}
 
 \subsection*{Part c}
-The low-to-high propogration delay ($t_{pLH}$) is defined as the time delay between 0.5($V_{in}$) in the falling edge and 0.5($V_{out}$) in the rising edge.
+The low-to-high propagation delay ($t_{pLH}$) is defined as the time delay between 0.5($V_{in}$) in the falling edge and 0.5($V_{out}$) in the rising edge.
 Based on the graph provided in the question, the following can be obtained:
 
 \begin{equation}
@@ -41,7 +41,7 @@ Based on the graph provided in the question, the following can be obtained:
 
 \subsection*{Part d}
 Based on the diagram, we can assume that the clock cycle in pico-seconds can be assumed to be $T_{in}$.
-\\Hence:
+\\\\Hence:
 
 \begin{equation}
     \frac{10}{100} * T_{in} = 355.05ps - 108.62ps = 246.43 ps
@@ -58,5 +58,33 @@ The frequency can be calculated to be the following:
 \begin{equation}
     f_{in} = \frac{1}{2464.3 * 10^{-12}} = 406 * 10^{6} Hz = 406MHz.
 \end{equation}
+
+
+\section*{Question 2}
+Based on the notes, we note that $R_{on}$ is inversely proportional to $\frac{W}{L}$. This implies the following:
+
+\begin{equation}
+    R_{on} \propto \frac{1}{W}
+\end{equation}
+
+and
+
+\begin{equation}
+    R_{on} \propto L
+\end{equation}
+
+\subsection*{Part a}
+We are given that $R_{on}$ is initially 100k$\Omega$. Based on the relationship mentioned in (8), we can determine the current value of $R_{on}$
+\begin{equation}
+    R_{on} = \frac{100}{5}k\Omega = 20k\Omega
+\end{equation}
+
+\subsection*{Part b}
+Similarly, based on (9):
+
+\begin{equation}
+    R_{on} = 100k\Omega * 5 = 500k\Omega
+\end{equation}
+
 
 \end{document}
