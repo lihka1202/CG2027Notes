@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1705850855 "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/main.tex" "main.pdf" "main" 1705850855 0
-  "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/main.tex" 1705850855 2532 ed3f176689ea56633d5f082e10084e2d ""
+["pdflatex"] 1705851145 "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment 1/main.tex" "main.pdf" "main" 1705851145 0
+  "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment 1/main.tex" 1705851145 2532 ed3f176689ea56633d5f082e10084e2d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -29,8 +29,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705768840 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705768809 7883460 3bf900917d4278a96d22028a5720d962 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1705850855 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "main.tex" 1705850855 2532 ed3f176689ea56633d5f082e10084e2d ""
+  "main.aux" 1705851145 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "main.tex" 1705851145 2532 ed3f176689ea56633d5f082e10084e2d ""
   (generated)
   "main.aux"
   "main.log"
