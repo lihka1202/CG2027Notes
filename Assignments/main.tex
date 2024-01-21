@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\title{Assigment 1}
+\author{Muthya Narayanachary Akhil (A0229794L)}
+\date{January 21, 2024}
+
+\begin{document}
+\maketitle
+\section*{Question 1}
+Based on the diagram, we can solve the sub parts in the following way:
+
+\subsection*{Part a}
+
+Rise time ($t_{r}$) is defined as the time taken for the voltage to rise from 0.1($V_{dd}$) to 0.9($V_{dd}$).
+Fall time ($t_{f}$) is defined as the time taken for the voltage to to fall from 0.9($V_{dd}$) to 0.1($V_{dd}$).
+\\\\Hence the rise time and fall time for the waveform $V_{out}$ can be calculated as:
+
+\begin{equation}
+    t_{r} = 383.86ps - 359.95ps = 23.91ps
+\end{equation}
+
+\begin{equation}
+    t_{f} = 132.36ps - 113.35ps = 19.01ps
+\end{equation}
+
+\subsection*{Part b}
+The high-to-low propogration delay ($t_{pHL}$) is defined as the time delay between 0.5($V_{in}$) in the rising edge and 0.5($V_{out}$) in the falling edge.
+Based on the graph provided in the question, the following can be obtained:
+
+\begin{equation}
+    t_{pHL} = 120.88ps - 108.62ps = 12.26ps
+\end{equation}
+
+\subsection*{Part c}
+The low-to-high propogration delay ($t_{pLH}$) is defined as the time delay between 0.5($V_{in}$) in the falling edge and 0.5($V_{out}$) in the rising edge.
+Based on the graph provided in the question, the following can be obtained:
+
+\begin{equation}
+    t_{pLH} = 368.35ps - 355.05ps = 13.3ps
+\end{equation}
+
+\subsection*{Part d}
+Based on the diagram, we can assume that the clock cycle in pico-seconds can be assumed to be $T_{in}$.
+\\Hence:
+
+\begin{equation}
+    \frac{10}{100} * T_{in} = 355.05ps - 108.62ps = 246.43 ps
+\end{equation}
+
+Solving this for $T_{in}$ would result in the following:
+
+\begin{equation}
+    T_{in} = 246.43 ps * 10 = 2464.3ps
+\end{equation}
+
+The frequency can be calculated to be the following:
+
+\begin{equation}
+    f_{in} = \frac{1}{2464.3 * 10^{-12}} = 406 * 10^{6} Hz = 406MHz.
+\end{equation}
+
+\end{document}
