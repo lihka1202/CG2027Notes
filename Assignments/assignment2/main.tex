@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\title{Assigment 2}
+\author{Muthya Narayanachary Akhil}
+\date{January 29, 2024}
+
+\begin{document}
+\maketitle
+
+\section*{Question 1}
+\subsection*{Part a}
+As stated in the question, we are required to calculate $C_{wire}$, which can be expressed by the following equation:
+
+\begin{equation}
+    C_{wire} = C_{pp} + C_{fringe}
+\end{equation}
+
+\subsubsection*{Calculating parallel plate capacitance}
+Based on the lecture notes, this can be calculated in the following way:
+\begin{equation}
+    C_{pp} = \frac{38 * 10^{-18}}{1 * 10^{-12}} * 250 * 10^{-6} * 0.4 * 10^{-6} = 3800 * 10^{-18}F = 3800aF
+\end{equation}
+
+\subsubsection*{Calculating fringing capacitance}
+This can be found in the following way:
+\begin{equation}
+    C_{fringe} = \frac{13 * 10^{-18}}{10^{-6}} * 250 * 10^{-6} = 3250 * 10^{-18} = 3250aF
+\end{equation}
+
+Since fringe capacitance needs to include for both the side walls, the value needs to be doubled, that is:
+
+\begin{equation}
+    C_{fringe} = 3250 * 2 = 6500aF
+\end{equation}
+
+\subsubsection*{Calculating the capacitance of the wire}
+Based on (2) and (4), we can determine the capacitance of the wire in the following way:
+\begin{equation}
+    C_{wire} = C_{pp} + C_{fringe} = 3800 + 6500 = 10300aF = 10.3fF
+\end{equation}
+
+\subsection*{Part b}
+The goal is to calculate the $R_{wire}$, given that the sheet metal resistance ($R_{0}$) is 0.08$\frac{\Omega}{sq}$.
+The width is given to to be 0.4$\mu$m, hence the goal is to fit as many squares of this size into the available length.
+This can be done in the following way:
+
+\begin{equation}
+    R_{wire} = 0.08 * \frac{250 * 10^{-6}}{0.4 * 10^{-6}} = 50\Omega
+\end{equation}
+
+\section*{Question 2}
+
+\end{document}
