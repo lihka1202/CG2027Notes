@@ -1,5 +1,6 @@
 \documentclass{article}
-
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \title{Assigment 2}
 \author{Muthya Narayanachary Akhil}
 \date{January 29, 2024}
@@ -73,5 +74,33 @@ Based on (5) and (9) we can compute the $t_{p}$ to be the following:
 \end{equation}
 
 \section*{Question 3}
+\subsection*{Part a}
+\subsubsection*{When $V_{in} = 0V$}
+For the NMOS inverter shown above, when $V_{in}$ is 0V, the steady state $V_{out}$ is 1V.
+This is because when $V_{in}$ is 0V, there is no curent at the gate, which doesnt lead to any holes appearing at the gate.
+This means that there is no channel formed to faciliate electron flow, and hence the NMOS is turned off.
+In short, this is because $V_{GS} < V_{TH}$ or the gate voltage is lesser than the threshold voltage.
+This means that the $V_{DD}$ supply is used to charge the capacitor $C_{L}$, which would have the supply voltage across its terminals once it has been fully charged (ie at steady state).
 
+\subsubsection*{When $V_{in} = 1V$}
+However, when $V_{in}$ is 1V, we can notice that the gate voltage is greater than the threshold voltage and the NMOS is turned on.
+When the NMOS can usually be considered to be a switch with a resistor. In this case the switch is turned on with a resistance of 10k$\Omega$.
+This changes the nature of the circuit to be something like this:
+
+\includegraphics[scale = 0.2]{circuit2.jpg}
+
+We can now use Ohms law for parallel circuits to calculate $V_{out}$ in the following manner:
+\begin{equation}
+    V_{out} = V_{in} * \frac{10k\Omega}{10k\Omega + 90k\Omega} = \frac{10}{100} = 0.1V
+\end{equation}
+
+\subsection*{Part b}
+\subsubsection*{When $V_{in} = 0V$}
+When $V_{in}$ = 0V, this means that the NMOS is turned off as $V_{GS}$ for the NMOS is less than the threshold voltage ($V_{THN}$).
+However, in the case of the PMOS, this means that the gate voltage is negative in terms of the supply voltage. This means that electrons accumulate on the gate, which leads to holes creating a channel for current to flow from the source to the drain.
+This ends up charging $C_{L}$, which ends up leading to $V_{out} = 1V$.
+
+\subsubsection*{When $V_{in} = 1V$}
+When $V_{in}$ = 1V, this means that the PMOS is turned off, as there is not enough potential difference to create a channel of holes. However the PMOS is turned off as $V_{GS} > V_{THN}$.
+This leads to the curent flowing from the drain to the souce, and the capacitor is discharged, leading to the $V_{out} = 0V$.
 \end{document}
