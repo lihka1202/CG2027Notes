@@ -49,5 +49,29 @@ This can be done in the following way:
 \end{equation}
 
 \section*{Question 2}
+\subsection*{Part a}
+We are given that the current flowing through the wire is 4mA. Hence the IR drop can be given by:
+\begin{equation}
+    IR_{drop} = 4 * 10^{-3} * 50 = 0.2 V
+\end{equation}
+
+\subsection*{Part b}
+We are given that the voltage source has an output impedance of 50$\Omega$, and requried to calculate the propagation delay ($t_{p}$).
+Based off the lecture notes, we are aware the the $t_{p}$ is a function of resistance when on $R_{on}$ and the load capacitance $C_{L}$.
+
+\begin{equation}
+    t_{p} = f(R_{on} \cdot C_{L}) = 0.69 * R_{on} * C_{L}
+\end{equation}
+Since there is an impedance from the voltage source, $R_{on}$ can be calculated to be:
+\begin{equation}
+    R_{on} = R_{wire} + Z_{source} = 50 + 50 = 100\Omega
+\end{equation}
+
+Based on (5) and (9) we can compute the $t_{p}$ to be the following:
+\begin{equation}
+    t_{p} = 100 * 10.3 * 10^{-15} = 7.107 * 10^{-13} = 71.07ps
+\end{equation}
+
+\section*{Question 3}
 
 \end{document}
