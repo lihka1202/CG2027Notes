@@ -125,6 +125,14 @@ INPUT ./images//transistorsizing.png
 OUTPUT main.pdf
 INPUT ./images//transistorsizing.png
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images//q2pc.jpeg
+INPUT ./images//q2pc.jpeg
+INPUT ./images//q2pc.jpeg
+INPUT ./images//q2pc.jpeg
+INPUT ./images//q2pd.jpeg
+INPUT ./images//q2pd.jpeg
+INPUT ./images//q2pd.jpeg
+INPUT ./images//q2pd.jpeg
 INPUT main.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

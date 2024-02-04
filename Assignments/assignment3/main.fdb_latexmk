@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1707071563 "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment3/main.tex" "main.pdf" "main" 1707071564 0
-  "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment3/main.tex" 1707071563 1610 30e46a63d6f42b7a6afb9eb423456791 ""
+["pdflatex"] 1707072760 "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment3/main.tex" "main.pdf" "main" 1707072760 0
+  "/Users/akhil.narayanachary/Desktop/CG2027Notes/Assignments/assignment3/main.tex" 1707072760 2290 d55252fe035033cb566f9173965b0751 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -39,9 +39,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705768840 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705768809 7883460 3bf900917d4278a96d22028a5720d962 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "images//q2pc.jpeg" 1707072186 303080 63cc59219cb80e36e26fde0909b17b1b ""
+  "images//q2pd.jpeg" 1707072671 126296 f71dd3e5245556d128ce92f7c94da81b ""
   "images//transistorsizing.png" 1707070608 100199 22f98cc4060981ae0886e5d67c76fe30 ""
-  "main.aux" 1707071564 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "main.tex" 1707071563 1610 30e46a63d6f42b7a6afb9eb423456791 ""
+  "main.aux" 1707072760 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "main.tex" 1707072760 2290 d55252fe035033cb566f9173965b0751 ""
   (generated)
   "main.aux"
   "main.log"

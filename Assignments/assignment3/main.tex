@@ -12,7 +12,7 @@
 \section*{Question 1}
 \subsection*{Part a}
 
-Based on the lecture notes the Boolean Expression can be calculated to be the following:
+Based on the lecture notes, the boolean expression can be calculated to be the following:
 \begin{equation}
     \bar{OUT} = (A + B) \cdot (C \cdot D + E)
 \end{equation}
@@ -63,4 +63,26 @@ As seen in the lecture, this can be calcuated in the following manner
 \end{equation}
 
 \section*{Question 2}
+\subsection*{Part a}
+This circuit performs the function of a NAND gate. The PASS transistor network performs AND
+then an inverter  by M1 and M2.
+
+\subsection*{Part b}
+When A=B=1, the pass transistor would pass up to VDD - $V_{th(NMOS)}$ to the $X^{nth}$ node.
+This results in M1 not completely turning off which leads to static power dissipation as both
+M1 and M2 are on.
+
+\subsection*{Part c}
+This can be done in the following way:
+
+\includegraphics[scale = 0.15]{q2pc.jpeg}
+
+One should note that the transistor should be small enough to pull the node X to GND
+when B is 0
+
+\subsection*{Part d}
+This can be done in the following way:
+
+\includegraphics[scale = 0.15]{q2pd.jpeg}
+
 \end{document} 

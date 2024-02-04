@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.21)  5 FEB 2024 02:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.21)  5 FEB 2024 02:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -97,20 +97,32 @@ Package pdftex.def Info: ./images//transistorsizing.png  used on input line 23.
 (pdftex.def)             Requested size: 229.18443pt x 272.00183pt.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//transistorsizing.png (PNG copy)>] [2] (./main.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//transistorsizing.png (PNG copy)>]
+<./images//q2pc.jpeg, id=13, 1753.55125pt x 1286.8075pt>
+File: ./images//q2pc.jpeg Graphic file (type jpg)
+<use ./images//q2pc.jpeg>
+Package pdftex.def Info: ./images//q2pc.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 263.02133pt x 193.01279pt.
+ [2]
+<./images//q2pd.jpeg, id=21, 1260.71pt x 1362.08875pt>
+File: ./images//q2pd.jpeg Graphic file (type jpg)
+<use ./images//q2pd.jpeg>
+Package pdftex.def Info: ./images//q2pd.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 189.09834pt x 204.30449pt.
+ [3 <./images//q2pc.jpeg> <./images//q2pd.jpeg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 1310 strings out of 476025
- 22010 string characters out of 5790017
- 1856388 words of memory out of 5000000
- 21797 multiletter control sequences out of 15000+600000
+ 1329 strings out of 476025
+ 22381 string characters out of 5790017
+ 1857388 words of memory out of 5000000
+ 21813 multiletter control sequences out of 15000+600000
  516234 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,62p,280b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 209154 bytes).
+Output written on main.pdf (3 pages, 644878 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
