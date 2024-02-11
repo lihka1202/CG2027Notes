@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\title{Assigment 4}
+\author{Muthya Narayanachary Akhil}
+\date{February 12, 2024}
+
+\begin{document}
+\maketitle
+\section*{Question 1}
+Based on the figure, we can observe that the worst case delay occurs
+when the carry is generated from then LSB, that is $C_{o,0}$. This ends up rippeling all the way up until when $C_{o,k}$ is generated.
+
+\subsubsection*{Assume that $C_{i,0}$ is 0}
+The initial value of $S_{N-1}$ would be 0 and $A_{0}$ and $B_{0}$ must be 1.
+This would mean that all other stages are in propogate mode and at any point either $A_{i}$ or $B_{i}$ would be 1.
+Setting $A_{N-1}$ and $B_{N-1}$ to 0 can yield a high sum bit.
+
+\subsubsection*{Assume that $C_{i,0}$ is 1}
+This would mean that either $A_{0}$ and $B_{0}$ would need to be 1.
+
+\section*{Question 2}
+\subsection*{Part a}
+We know that the delay of an N-bit adder with M-bits per stage is:
+\begin{equation}
+    t_{add} = t_{setup} + M*t_{carry} + \frac{N}{M} * t_{mux} + t_{sum}
+\end{equation}
+This means that:
+\begin{eqnarray}
+    t_{add} = 2 + M + \frac{16}{M} + 2 = 4 + M + \frac{16}{M}
+\end{eqnarray}
+We know that the delay for an N-bit ripple carry adder is:
+\begin{eqnarray}
+    t_{add,ripple-carry} = (N-1)t_{carry} + t_{sum} = 17
+\end{eqnarray}
+Based on equations (2) and (3) we can claim that if M $\geq$ 2, the carry select adder has less propagation delay than the ripple-carry adder.
+
+\subsection*{Part b}
+Based on the equations (1) and (3) we can claim:
+\begin{equation}
+    T_{add,select-carry} = 2 + 4*1 + \frac{N}{4} * 1 + 2 = \frac{N}{4} + 8
+\end{equation}
+\begin{equation}
+    T_{add, ripple-carry} = (N-1) * 1 + 2 = N + 1
+\end{equation}
+We assumed that $T_{add,select-carry} < T_{add, ripple-carry}$, that is
+\begin{eqnarray}
+    \frac{N}{4}  + 8 \leq N + 1
+\end{eqnarray}
+\begin{equation}
+    N + 32 \leq 4N + 4
+\end{equation}
+\begin{eqnarray}
+    28 \leq 3N
+\end{eqnarray}
+That is N $\geq$ 9.33. Hence if N $\geq$ 10 then the carry select adder has lesser propagation delay.
+
+\end{document}
