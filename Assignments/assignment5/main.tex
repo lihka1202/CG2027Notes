@@ -1,0 +1,63 @@
+\documentclass{article}
+
+\title{Assigment 5}
+\author{Muthya Narayanachary Akhil}
+\date{February 19th, 2024}
+
+\begin{document}
+\maketitle
+
+\section*{Question 1}
+
+\subsection*{Part a}
+
+When Q = 1 and $\overline{Q}$ = 0 and WL = H, this implies that M5 and M1 form a voltage ladder.
+Hence the $\overline{Q}$ is deduced by this equation:
+\begin{equation}
+    \overline{Q} = V_{DD} * \frac{R_{M1}}{R_{M5} + R_{M1}}
+\end{equation}
+Hence we can observe the following:
+\begin{equation}
+    1 * \frac{R_{M1}}{R_{M5} + R_{M1}} < 0.4.
+\end{equation}
+
+\begin{equation}
+    6 * R_{M1} < 4 * R_{M5} = R_{M1} < \frac{2}{3} * R_{M5}
+\end{equation}
+
+This implies that $W_{M1}$ should be greater than 1.5 $\mu$m.
+
+\subsection*{Part b}
+
+When Q = 1 and $\overline{Q}$=0, M2 and M3 are off, so the writing part is done by M4 and M6 instead.
+M4 and M6 form a voltage ladder, hence voltage at this point can be given to be:
+\begin{equation}
+    1 * \frac{R_{M6}}{R_{M4} + R_{M6}} < 0.4
+\end{equation}
+
+\begin{equation}
+    6 * R_{M6} < 4 * R_{M4}
+\end{equation}
+That is, $W_{M4}$ must be less than $\frac{2}{3}$ $\mu$m.
+
+
+\section*{Queston 2}
+\subsection*{Part a}
+As we know,
+\begin{equation}
+    Q_{overall} = Q_{BL(initial)} + Q_{S(initial)}
+\end{equation}
+Based on the data we already khow, we can infer the following:
+\begin{equation}
+    (80fF + 20fF) * V_{final} = 80tF*1
+\end{equation}
+\begin{equation}
+    V_{final} = 0.8V
+\end{equation}
+Hence the dropping amount is 1 - 0.8 V = 0.2 V
+
+\subsection*{Part b}
+This results in a potential drop from M1. The top plate of $C_{s}$ can only reach 1.6 V.
+To prevent such a voltage drop, M1's gate voltage needs to have $V_{th,M1}$ higher than BL.
+This would minimally need to be 2.4 V or higher, this process is commonly called bootstrapping.
+\end{document}
